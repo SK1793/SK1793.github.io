@@ -8,7 +8,7 @@
              'Subject:' . $subject . "\r\n".
              'Reply-To: ' . $email . "\r\n" .
              'X-Mailer: PHP/' . phpversion();
-  if (mail($to, $subject, $message, $headers)) {
+  if (mail ($to, $subject, $message, $headers)) {
     echo "Email sent";
   } else {
     echo "Email sending failed";
