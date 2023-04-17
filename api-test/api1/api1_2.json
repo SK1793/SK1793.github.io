@@ -1,0 +1,62 @@
+[
+    {
+        "cgpa": "5.97",
+        "iq": "106",
+        "profile_score": "61",
+        "placed": "0"
+    },
+    {
+        "cgpa": "6.83",
+        "iq": "113",
+        "profile_score": "77",
+        "placed": "0"
+    },
+    {
+        "cgpa": "6.6",
+        "iq": "110",
+        "profile_score": "61",
+        "placed": "0"
+    },
+    {
+        "cgpa": "5.54",
+        "iq": "113",
+        "profile_score": "68",
+        "placed": "0"
+    },
+    {
+        "cgpa": "6.84",
+        "iq": "102",
+        "profile_score": "67",
+        "placed": "0"
+    },
+    {
+        "cgpa": "7.15",
+        "iq": "98",
+        "profile_score": "63",
+        "placed": "1"
+    },
+    {
+        "cgpa": "7.4",
+        "iq": "100",
+        "profile_score": "71",
+        "placed": "1"
+    },
+    {
+        "cgpa": "7.97",
+        "iq": "86",
+        "profile_score": "100",
+        "placed": "1"
+    },
+    {
+        "cgpa": "6.64",
+        "iq": "111",
+        "profile_score": "56",
+        "placed": "0"
+    },
+    {
+        "cgpa": "7.82",
+        "iq": "99",
+        "profile_score": "58",
+        "placed": "0"
+    }
+]
