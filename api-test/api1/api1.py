@@ -54,8 +54,6 @@ def predict():
     return jsonify({'placement':str(result)})
 
 @app.route('/display')
-
-
 def display():
     csvFilePath="students_placement.csv"
     jsonFilePath="api1.json"
