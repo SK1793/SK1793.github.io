@@ -41,7 +41,7 @@ model = pickle.load(open('model.pkl','rb'))
 app = Flask(__name__)
 @app.route('/')
 def index():
-    return "Hello world!"
+    return "Welocme to Student Placement Predictor"
 @app.route('/predict',methods=['POST'])
 def predict():
     cgpa = request.form.get('cgpa')
