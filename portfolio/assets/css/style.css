@@ -1021,8 +1021,5 @@ section {
 }
 
 .LI-profile-badge{
-  padding:20px;
-  position:center;
-  margin-left:5px;
-  margin-right:5px;
+  margin:5px 10px 5px 10px;
 }
