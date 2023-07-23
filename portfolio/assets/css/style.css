@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
+  background-color:black;
 }
 #header .profile img {
   margin: 15px auto;
