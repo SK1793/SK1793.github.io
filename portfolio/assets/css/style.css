@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color:#fff;
+  color: #121936b2;
 }
 
 a {
@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: #37b3ed;
   text-decoration: none;
 }
 
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.4s;
   outline: none !important;
   background-color: #111;
-  color: #ffffff;
+  color: #fff;
   width: 40px;
   height: 40px;
   display: inline-flex;
@@ -230,7 +230,6 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
-    
   }
 }
 @media (max-width: 768px) {
@@ -251,11 +250,6 @@ h1, h2, h3, h4, h5, h6 {
   }
   .typed-char2{
     padding-left:100px;
-  }
-   .mobile-nav-toggle{
-    block-size: 5vh;
-    inline-size: 5vh;
-    color:green;
   }
   
 }
@@ -553,6 +547,12 @@ section {
 .portfolio-details {
   padding-top: 40px;
 }
+
+#swiper-slide{
+  height: 300px;
+  width: min-content;
+}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -924,14 +924,19 @@ section {
   }
   .breadcrumbs ol {
     display: block;
+
   }
   .breadcrumbs ol li {
     display: inline-block;
   }
-    .mobile-nav-toggle{
-    block-size: 8vh;
-    inline-size: 8vh;
+
+  .mobile-nav-toggle{
+    min-block-size: 6vh;
+    min-inline-size: 6vh;
   }
+  
+
+  
 }
 
 @media (max-width: 640px) {
@@ -947,47 +952,11 @@ section {
   }
 
   .mobile-nav-toggle{
-    block-size: 8vh;
-    inline-size: 8vh;
+    min-block-size: 8vh;
+    min-inline-size: 8vh;
   }
+
 }
-  
-  @media (max-width: 480px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-
-  .mobile-nav-toggle{
-    block-size: 8vh;
-    inline-size: 8vh;
-  }
-  }
-  
-    @media (max-width: 320px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-
-  .mobile-nav-toggle{
-    block-size: 8vh;
-    inline-size: 8vh;
-  }
-  }
-  
 
 /*--------------------------------------------------------------
 # Footer
@@ -1021,5 +990,7 @@ section {
 }
 
 .LI-profile-badge{
-  margin:5px 10px 5px 10px;
+  
+  margin-left: 250px;
+  
 }
