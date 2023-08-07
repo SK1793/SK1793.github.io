@@ -9,11 +9,46 @@
              'Reply-To: ' . $email . "\r\n" .
               "CC:manjusk017@gmail.com";
     
-if($_POST["message"]){
-  if (mail ($to, $subject, $message, $headers)) {
-    echo "Email sent";
-  } else {
-    echo "Email sending failed";
-  }
-  }
+if ($_SERVER["REQUEST_METHOD"] === "POST" ){
+
+try{
+  
+$mailid=new PHPMailer(true);
+$mailid->isSMTP();
+$mailid->Host='smtp.gmail.com';
+$mailid->SMTPAuth=true;
+$mailid->Username='manjusk017@gmail.com';
+$mailid->Password='jsxfxhrowoonpotl';
+$mailid->SMTPSecure=PHPMailer::ENCRYPTION_SMTPS;
+$mailid->Port=465;
+
+$mailid->setFrom('manjusk017@gmail.com','Manjunath SK');
+
+$mailid->addAddress($_POST["user_mail"],$_POST['user_name']);
+  
+$mailid->isHTML(true);
+
+$mailid->Subject="Thank you for visiting my website";
+$mailid->Body=$_POST['user_name'].  ", Thank you for visiting my website, I received your message,
+<br> Here is your message: " . $_POST['user_message'];
+
+$mailid->send();
+
+echo "<script> alert('Successfull!');
+document.location.href='home.php';  
+      </script>";
+    }
+
+    catch(Exception $e){
+        echo "error: " .$mailid->ErrorInfo;
+    }
+
+}else{
+    echo("Given Email is not correct!");
+}
+}
+else{
+    echo "<script>alert('Failed to load your request for some reason try again')</script>";
+}
+  
 ?>
