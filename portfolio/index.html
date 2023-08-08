@@ -449,18 +449,19 @@
               <div class="phone">
                 <i class="bi bi-telegram"></i>
                 <h4>Telegram:</h4>
-                <p><a href="http://telegram.me/SK1793" target=_blank>Telegram1</a></p>
-                <p><a href="http://telegram.me/SK01793" target=_blank>Telegram2</a></p>
+                <p><a href="http://telegram.me/SK1793" target=_blank rel="noopener">Telegram1</a></p>
+                <p><a href="http://telegram.me/SK01793" target=_blank rel="noopener">Telegram2</a></p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-whatsapp"></i>
                 <h4>Whatsapp:</h4>
-                <p><a href="https://wa.me/+917892215418" target=_blank>Whatsapp1</a></p>
-                <p><a href="https://wa.me/+917760198031" target=_blank>Whatsapp2</a></p>
+                <p><a href="https://wa.me/+917892215418" target=_blank rel="noopener">Whatsapp1</a></p>
+                <p><a href="https://wa.me/+917760198031" target=_blank rel="noopener">Whatsapp2</a></p>
               </div>
 
-              <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="290px" id="gmap_canvas" src="https://maps.google.com/maps?q=koppal&t=&z=10&ie=UTF8&iwloc=&output=embed"></iframe></div></div>
+              <div class="mapouter"><div class="gmap_canvas">
+                <iframe width="100%" height="290px" id="gmap_canvas" src="https://maps.google.com/maps?q=koppal&t=&z=10&ie=UTF8&iwloc=&output=embed"></iframe></div></div>
 
             </div>
 
@@ -476,27 +477,35 @@
     </section><!-- End Contact Section -->
         <div class="form-container">
 
-        <form action="send_mail.php" class="form php-email-form" method="POST">
+          <h2 class="title">Email-form</h2>
 
-            <div class="form-group">
-              <label for="exampleInputEmail1">Name</label>
-              <input type="text" class="form-control" name="user_name"  aria-describedby="emailHelp" placeholder="Enter Name">
-            </div>
-    
-            <div class="form-group">
-              <label for="exampleInputPassword1">Mail</label>
-              <input type="email" name="user_mail" class="form-control"  placeholder="Enter Mail">
-            </div>        
-    
-            <div class="form-group">
-              <label for="exampleInputPassword1">Message</label>
-              <textarea type="message" name="user_message" class="form-control"  placeholder="Enter Message"></textarea>
-            </div><br>
-            <div class="form-group">
-            <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
+          <form action="send_mail.php" class="d-flex form" method="post">
+            <div class="col">
+        
+                <div class="mb-3">
+      
+                    <label for="" class="form-label">Name</label>
+                    <input type="text" class="form-control" name="user_name"  placeholder="UserName"  autocapitalize="words">
+                    
+                  </span>
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Email</label>
+                    <input type="email" class="form-control" name="user_mail" placeholder="UserMail"  >
+                  
+                
+                  </span>
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Message</label>
+                    <input type="text" class="form-control" name="user_message" placeholder="Enter the Message you want to send." >
+                </div>
+
+                   <button  type="submit">Submit</button>
             
-          </form>
+            </div>
+        </form>
+          </div>
 
   </main><!-- End #main -->
 
