@@ -1017,7 +1017,7 @@ section {
   
 }
 .form-container > .form >.col> button{
-  border-radius:5vh;
+  border-radius:2vh;
   color:#fff;
   background-color:#1674a2;
   border:1px solid #fff;
