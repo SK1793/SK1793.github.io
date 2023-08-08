@@ -27,7 +27,7 @@ $mailid->SMTPAuth=true;
 $mailid->Username='postmaster@sandbox5e814278a0274da6a8faf3a2e2a67666.mailgun.org';
 $mailid->Password='63fc3cb306b475e86c9cc80df7bce81f-28e9457d-1e202ab5';
 $mailid->SMTPSecure='tls';
-$mailid->Port=587;
+$mailid->Port=587 ;
 
 $mailid->setFrom('manjusk017@gmail.com','Manjunath SK');
 
