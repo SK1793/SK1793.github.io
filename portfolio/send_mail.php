@@ -22,11 +22,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" ){
 
 $mailid=new PHPMailer(true);
 $mailid->isSMTP();
-$mailid->Host='smtp.gmail.com';
+$mailid->Host='smtp.mailgun.org';
 $mailid->SMTPAuth=true;
-$mailid->Username='manjusk017@gmail.com';
+$mailid->Username='postmaster@sandbox5e814278a0274da6a8faf3a2e2a67666.mailgun.org';
 $mailid->Password='xefrwitagjpuklpy';
-$mailid->SMTPSecure=PHPMailer::ENCRYPTION_SMTPS;
+$mailid->SMTPSecure='tls';
 $mailid->Port=465;
 
 $mailid->setFrom('manjusk017@gmail.com','Manjunath SK');
