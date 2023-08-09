@@ -1007,7 +1007,7 @@ section {
   padding: 5px 5px;
   
   border:3px solid #1674a2;
-  border-radius:1ch;
+  border-radius:15px;
 }
 .form-container > .title{
   text-decoration: underline;
@@ -1017,7 +1017,7 @@ section {
   
 }
 .form-container > .form >.col> button{
-  border-radius:2vh;
+  border-radius:15px;
   color:#fff;
   background-color:#1674a2;
   border:1px solid #fff;
