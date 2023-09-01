@@ -868,7 +868,7 @@ section {
 .contact .php-email-form button[type=submit] {
   background: #149ddd;
   border: 0;
-  padding: 10px 24px;
+  padding: 10px 12px;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
