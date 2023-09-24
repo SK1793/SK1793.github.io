@@ -1,5 +1,5 @@
-[[plugins]]
-  package = "@netlify/plugin-emails"
+#[[plugins]]
+ # package = "@netlify/plugin-emails"
 
 
 # Production context: all deploys from the Production branch
@@ -7,7 +7,6 @@
 # these settings. You can define environment variables
 # here but we recommend using the Netlify UI for sensitive
 # values to keep them out of your source repository.
-CI=''
 [context.production]
   publish = "output/"
   command = "make publish"
@@ -40,3 +39,5 @@ CI=''
 # this specific branch will inherit these settings.
 [context.staging.environment] # “staging” is a branch name
   NODE_ENV = "development"
+
+  
