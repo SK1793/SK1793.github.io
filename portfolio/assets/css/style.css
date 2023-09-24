@@ -994,3 +994,33 @@ section {
   margin-left: 250px;
   
 }
+
+
+                                    /*Email-Section*/
+
+.form-container{
+  padding: 5px 5px;
+  
+  border:3px solid #1674a2;
+  border-radius:15px;
+}
+.form-container > .title{
+  text-decoration: underline;
+  font-size:2em;
+  padding: 1px 1px;
+  text-align: center;
+  
+}
+.form-container > .form >.col> button{
+  border-radius:15px;
+  color:#fff;
+  background-color:#1674a2;
+  border:1px solid #fff;
+}
+
+.form-container > .form > .col> button:hover{
+  color:#1674a2;
+  background-color:#fff;
+  border:1px solid #1674a2;
+  transition: 350ms all ease-in;
+}
