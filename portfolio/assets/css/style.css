@@ -459,7 +459,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.portfolio-item {
   margin-bottom: 30px;
   height:500px;
   background-color:aqua;
