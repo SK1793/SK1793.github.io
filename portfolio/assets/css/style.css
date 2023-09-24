@@ -118,10 +118,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 0;
   }
 
-    .portfolio-item {
-  margin-bottom: 30px;
-  height:110px;
-} 
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -240,10 +236,6 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     background-attachment: fixed;
   }
-    .portfolio-item {
-  margin-bottom: 30px;
-  height:100px;
-} 
 }
 @media (max-width: 768px) {
   #hero h1 {
@@ -473,11 +465,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-/*.portfolio-item {
+.portfolio .portfolio-item {
   margin-bottom: 30px;
-  height:50px;
+  height:10%;
 } 
-*/
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
