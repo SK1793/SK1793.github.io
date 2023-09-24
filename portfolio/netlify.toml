@@ -12,7 +12,7 @@
   command = "make publish"
   #environment = { NODE_VERSION = "14.15.3" }
   environment = { NODE_VERSION = "18.14.0." }
-  
+  CI= npm run build
 
 # Here is an example of how to define context-specific
 # environment variables. Be mindful when using this
