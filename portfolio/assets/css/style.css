@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
   }
     .portfolio-item {
   margin-bottom: 30px;
-  height:105px;
+  height:100px;
 } 
 }
 @media (max-width: 768px) {
@@ -264,6 +264,10 @@ h1, h2, h3, h4, h5, h6 {
   .typed-char2{
     padding-left:100px;
   }
+      .portfolio-item {
+  margin-bottom: 30px;
+  height:85px;
+} 
   
 }
 
