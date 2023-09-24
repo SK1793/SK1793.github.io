@@ -462,6 +462,7 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
   height:500px;
+  background-color:aqua;
 }
 .portfolio #portfolio-flters {
   padding: 0;
