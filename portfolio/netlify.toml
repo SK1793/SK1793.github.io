@@ -1,5 +1,3 @@
-#[[plugins]]
- # package = "@netlify/plugin-emails"
 
 
 # Production context: all deploys from the Production branch
