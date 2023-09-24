@@ -465,6 +465,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio .portfolio-container{
+ height:max-content;
+  padding:5px 5px;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
   height:10%;
