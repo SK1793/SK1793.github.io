@@ -7,7 +7,7 @@
 # values to keep them out of your source repository.
 [context.production]
   publish = "output/"
-  command ="CI='' npm run build"
+  command ="make publish"
   #environment = { NODE_VERSION = "14.15.3" }
   environment = { NODE_VERSION = "18.14.0" }
   
