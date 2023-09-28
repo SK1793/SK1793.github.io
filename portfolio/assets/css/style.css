@@ -238,6 +238,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 325px;
 }
 }
+@media only screen and (min-width:769px) and (max-width:1198px){
+    .portfolio .portfolio-item img {
+          height: 300px;
+}
+}
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
