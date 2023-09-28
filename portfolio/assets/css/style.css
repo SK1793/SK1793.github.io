@@ -114,6 +114,9 @@ h1, h2, h3, h4, h5, h6 {
   #main {
     margin-left: 0;
   }
+  .portfolio .portfolio-item img {
+  height: 330px;
+}
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -231,6 +234,9 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     background-attachment: fixed;
   }
+  .portfolio .portfolio-item img {
+  height: 325px;
+}
 }
 @media (max-width: 768px) {
   #hero h1 {
@@ -251,6 +257,9 @@ h1, h2, h3, h4, h5, h6 {
   .typed-char2{
     padding-left:100px;
   }
+  .portfolio .portfolio-item img {
+  height: 300px;
+}
   
 }
 
