@@ -254,3 +254,21 @@
   });
 
 })()
+
+function gotoLink(){
+    var appLinkContainer= document.getElementById('AppVersionLinkContainer');
+    var appLink= document.getElementById('AppVersionLink');
+    appLinkContainer.scrollTo();
+
+    // let task =  setInterval(function(){
+      
+    //   appLinkContainer.style.backgroundColor="red";
+    //   appLink.style.color="#e80e0e";
+    //   setTimeout(function(){
+    //     clearInterval(task);
+    //   },2000);
+    // },1000);
+
+  }
+
+
