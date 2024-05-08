@@ -1,4 +1,4 @@
-const sgMail = require('@sendgrid/mail'); // Or use nodemailer for other providers
+const sgMail = require('/@sendgrid/mail'); // Or use nodemailer for other providers
 
 exports.handler = async (event) => {
     const { name, email, message } = JSON.parse(event.body).payload.data;
