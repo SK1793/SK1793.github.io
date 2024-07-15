@@ -1,0 +1,22 @@
+{
+  "name": "api_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Manjunath SK",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^22.11.2",
+    "worktop": "^0.7.3",
+    "y": "^0.3.2"
+  },
+  "type": "module",
+  "types": "module",
+  "devDependencies": {
+    "wrangler": "^3.62.0"
+  }
+}
