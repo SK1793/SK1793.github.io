@@ -4,3 +4,8 @@
     border-radius:5px;
     padding:3px;
   } 
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
